@@ -175,13 +175,3 @@ print("Finished")
 # In[ ]:
 
 
-
-browser.get('https://www.google.com/')
-search2 = browser.find_element_by_xpath('/html/body/div/div[3]/form/div[2]/div[1]/div[1]/div/div[2]/input')
-search2.send_keys(postcode)
-search2.send_keys(u'\ue007')
-
-browser.get('https://www.royalmail.com/find-a-postcode')
-address_search = browser.find_element_by_id('cp-search')
-address_search.send_keys(postcode)
-
