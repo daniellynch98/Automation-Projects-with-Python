@@ -49,10 +49,10 @@ for i in postcode_searcher:
         
 browser.get('https://online.mystery-shoppers.co.uk/document.asp?alias=MSLogin')   
 username = browser.find_element_by_id('username')
-username.send_keys('daniellynch654@yahoo.co.uk')
+username.send_keys('insert email here')
 
 password = browser.find_element_by_id('password')
-password.send_keys('Slithroat98')
+password.send_keys('insert password here)
 password.send_keys(u'\ue007')
 time.sleep(5)
 pyautogui.click(165, 190)
