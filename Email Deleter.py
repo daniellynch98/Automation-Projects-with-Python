@@ -6,7 +6,7 @@
 
 import imapclient, pyzmail
 conn = imapclient.IMAPClient('imap.gmail.com', ssl = True)
-conn.login ('daniellynch654@gmail.com', 'insert password here')
+conn.login ('insert email here', 'insert password here')
 conn.select_folder("Inbox", readonly = True)
 Messages  = conn.search (['SINCE', '05-Jun-2020'])
 Messages
